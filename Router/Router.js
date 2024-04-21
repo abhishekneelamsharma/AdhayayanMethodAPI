@@ -7,7 +7,7 @@ router.use(express.json());
 
 const cors = require("cors");
 router.use(cors({
-    origin:"https://adhyayan-method-frontend.vercel.app",
+    origin:"https://adhyayan-method-ui.vercel.app",
     methods:["GET","POST"],
     credentials:true
 }));
